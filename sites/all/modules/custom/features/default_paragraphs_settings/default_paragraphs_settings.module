@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Default - Paragraphs settings feature.
+ */
+
+include_once 'default_paragraphs_settings.features.inc';

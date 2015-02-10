@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Default - DS settings feature.
+ */
+
+include_once 'default_ds_settings.features.inc';

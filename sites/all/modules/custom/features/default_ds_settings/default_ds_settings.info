@@ -1,0 +1,13 @@
+name = Default - DS settings
+core = 7.x
+package = Default settings
+dependencies[] = ctools
+dependencies[] = ds
+features[ctools][] = ds:ds:1
+features[ds_layout_settings][] = node|webform|default
+features[ds_layout_settings][] = paragraphs_item|2_kolommen_afbeeldingen|default
+features[ds_layout_settings][] = paragraphs_item|2_kolommen_tekst_afbeelding_link|default
+features[ds_layout_settings][] = paragraphs_item|2_kolommen_tekst_afbeelding_rech|default
+features[ds_layout_settings][] = paragraphs_item|2_kolommen_tekst|default
+features[features_api][] = api:2
+mtime = 1419946912

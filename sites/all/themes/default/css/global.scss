@@ -1,0 +1,454 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+$font: 'Open Sans', sans-serif;
+
+body {
+  font-size: 100%;
+  font-family: $font;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.2em;
+  font-family: $font;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-family: $font;
+  font-weight: 600;
+}
+
+h2.block-title {
+  font-size: 1.8em;
+  font-family: $font;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.4em;
+  font-family: $font;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1.2em;
+  font-family: $font;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 1em;
+  font-family: $font;
+  font-weight: 400;
+}
+
+p {
+  margin: 0;
+  font-family: $font;
+}
+
+a, a:link {
+  font-family: $font;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.fa:before {
+  margin-right: 0.5em;
+  font-family: FontAwesome;
+}
+
+div {
+  font-family: $font;
+}
+
+label {
+  font-weight: normal;
+}
+
+.form-textarea-wrapper textarea,
+textarea,
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  border: 1px solid #e0e0e0;
+  padding: 8px 9px;
+  outline: none;
+  font-size: 14px;
+  color: #888;
+  margin: 0;
+  max-width: 100%;
+  display: block;
+  background: #fff;
+  -webkit-box-shadow: inset 1px 1px 2px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: inset 1px 1px 2px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 3px;
+  height: auto;
+  width: 80%;
+}
+
+.form-textarea-wrapper .grippie {
+  width: 80%;
+}
+
+button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"],
+.node-links ul li a {
+  text-shadow: none;
+  padding: 10px 20px;
+  display: inline-block;
+  border: none;
+  background: #dddddd;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+button:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.node-links ul li a:hover {
+  background: #cccccc;
+}
+
+/*
+
+*/
+$font-heading: 'special_eliteregular';
+$light-black: #2a2a2a;
+$green: #4d8637;
+
+@font-face {
+  font-family: 'special_eliteregular';
+  src: url('fonts/SpecialElite-webfont.eot');
+  src: url('fonts/SpecialElite-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/SpecialElite-webfont.woff') format('woff'),
+  url('fonts/SpecialElite-webfont.ttf') format('truetype'),
+  url('fonts/SpecialElite-webfont.svg#special_eliteregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background: $light-black;
+}
+
+.region {
+  background: #fff;
+}
+
+h1, h2, h2.block-title, h3, h4, h5, h6 {
+  font-family: $font-heading;
+}
+
+p {
+  font-weight: 300;
+}
+
+a:link, a:visited {
+  color: $green;
+}
+
+.logo-img {
+  margin: 0;
+  width: 100%;
+}
+
+#block-superfish-1 {
+  background: $light-black;
+  z-index: 500;
+  width: 100%;
+  #superfish-1 {
+    li {
+      width: 16.666666666%;
+      margin: 0;
+      a {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        border: 1px solid #fff;
+        color: #fff;
+        padding: 10px 0;
+        font-size: 1.2em;
+        text-transform: lowercase;
+        font-family: $font-heading;
+
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+
+      }
+      a:hover {
+        background: $green;
+      }
+      a.active {
+        background: $green;
+      }
+    }
+    li.first {
+      a {
+        border-left: none;
+      }
+    }
+    li.last {
+      a {
+        border-right: none;
+      }
+    }
+  }
+
+}
+
+.node-page {
+  .paragraphs-items {
+    text-align: center;
+
+    .field-name-field-link a,
+    .field-name-field-link-2 a {
+      text-shadow: none;
+      padding: 10px 20px;
+      margin: 15px 0;
+      display: inline-block;
+      border: none;
+      background: $green;
+      border-radius: 0;
+      box-shadow: none;
+      color: #fff;
+
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+    }
+
+    .field-name-field-link a:hover,
+    .field-name-field-link-2 a:hover {
+      background: $light-black;
+    }
+
+    .field-name-field-tekst,
+    .field-name-field-tekst-2 {
+      padding: 0 50px;
+      margin: 20px 0;
+      img {
+        max-height: 120px;
+      }
+    }
+
+    .field-name-field-afbeelding,
+    .field-name-field-afbeelding-2 {
+      img {
+        width: 100%;
+      }
+    }
+
+    .paragraphs-item-1-kolom-afbeelding-tekst {
+      position: relative;
+      .field-name-field-tekst {
+        img {
+          max-height: 120px;
+        }
+      }
+      p {
+        font-family: $font-heading;
+      }
+      .field-name-field-link {
+        a {
+          text-shadow: none;
+          padding: 10px 20px;
+          margin: 20px 0;
+          display: inline-block;
+          border: 1px solid #fff;
+          background: #000;
+          border-radius: 0;
+          box-shadow: none;
+          color: #fff;
+
+          -webkit-transition: all 0.5s ease;
+          -moz-transition: all 0.5s ease;
+          -ms-transition: all 0.5s ease;
+          -o-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+        }
+        a:hover {
+          background: #fff;
+          color: #000;
+        }
+      }
+    }
+  }
+}
+
+.ds-2col > .group-left,
+.ds-2col-stacked > .group-left {
+  float: left;
+  width: 100%;
+}
+
+.ds-2col > .group-right,
+.ds-2col-stacked > .group-right {
+  float: left;
+  width: 100%;
+}
+
+#superfish-1-select {
+  width: 100%;
+  border-radius: 0;
+  padding-left: 40px;
+  background: $light-black url("../css/img/hamburger-menu-icon.png") no-repeat 10px center;
+  border: $light-black;
+  background-size: 20px;
+  color: #ffffff;
+}
+
+#zone-footer-wrapper {
+  #region-footer-first,
+  #region-footer-second {
+    background: #e9e7e8;
+    .region-inner {
+      padding: 20px;
+    }
+
+    p {
+      font-family: $font-heading;
+    }
+  }
+  #region-footer-first {
+    margin-right: 0;
+    padding-right: 10px;
+  }
+  #region-footer-second {
+    margin-left: 0;
+    padding-left: 10px;
+    background: #e3e3e3;
+  }
+}
+
+.node-webform {
+  .field-name-field-tekst {
+    margin: 20px 20px;
+  }
+}
+
+input[type="submit"] {
+  text-shadow: none;
+  padding: 10px 20px;
+  margin: 15px 0;
+  display: inline-block;
+  border: none;
+  background: $green;
+  border-radius: 0;
+  box-shadow: none;
+  color: #fff;
+
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+input[type="submit"]:hover {
+  background: $light-black;
+}
+
+.view-blogs {
+  .views-row {
+    .field-name-field-afbeelding {
+      float: left;
+      padding: 20px;
+
+    }
+    .field-name-title {
+      padding: 20px 0;
+      h2 {
+        margin: 0;
+      }
+    }
+    .field-name-node-link {
+      a {
+        text-shadow: none;
+        padding: 10px 20px;
+        margin: 20px 0;
+        display: inline-block;
+        border: 1px solid #fff;
+        background: $green;
+        border-radius: 0;
+        box-shadow: none;
+        color: #fff;
+
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+      }
+      a:hover {
+        background: $light-black;
+
+      }
+    }
+  }
+}
+
+.node-blog.view-mode-full {
+  padding: 10px 20px;
+  .field-name-body {
+    clear: left;
+  }
+    .field-name-field-afbeelding {
+      float: left;
+      padding: 20px;
+
+    }
+    .field-name-title {
+      padding: 20px 0;
+      h2 {
+        margin: 0;
+      }
+    }
+  }
+
+#region-footer-first,
+#region-footer-second{
+  min-height: 330px;
+}
+
+.media-vimeo-player{
+  width: 100%;
+}
+
+.page-node-3, .page-node-4 {
+  .paragraphs-items {
+    text-align: left;
+  }
+}

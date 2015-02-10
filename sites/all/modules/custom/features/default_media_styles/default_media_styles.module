@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Default - Media styles feature.
+ */
+
+include_once 'default_media_styles.features.inc';

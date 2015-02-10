@@ -1,0 +1,54 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+.ds-2col > .group-left {
+  float: left;
+  width: 50%;
+
+}
+
+.ds-2col > .group-right {
+  float: left;
+  width: 50%;
+
+}
+
+#block-superfish-1 {
+  width: 960px;
+  #superfish-1 {
+    li {
+      width: 16.33333333%;
+      margin: 0;
+    }
+  }
+}
+
+.node-page {
+  .paragraphs-items {
+    .field-name-field-tekst,
+    .field-name-field-tekst-2{
+      margin: -1px 0;
+      img{
+        max-height: 100px;
+        margin-bottom: 10px;
+      }
+      h2{
+        margin-bottom: 0px;
+      }
+    }
+    .paragraphs-item-1-kolom-afbeelding-tekst {
+      .field-name-field-tekst {
+        top: 20px;
+        left: 20px;
+        img{
+          max-height: 100px;
+        }
+      }
+      .field-name-field-link {
+        left: 14%;
+        right: inherit;
+
+      }
+    }
+  }
+}

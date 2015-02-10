@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Default homepage feature.
+ */
+
+include_once 'default_homepage.features.inc';

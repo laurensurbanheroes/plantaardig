@@ -1,0 +1,12 @@
+name = Default homepage
+core = 7.x
+package = Content
+dependencies[] = content_type_basic_page
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = uuid_features
+__drupal_alter_by_ref[][node][page] = page
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[uuid_node][] = 4d7dcc7a-ef5c-4cea-af0e-afde411c0105

@@ -1,0 +1,56 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+#block-superfish-1 {
+  width: 1180px;
+  #superfish-1 {
+    li {
+      width: 16.66666666%;
+      margin: 0;
+    }
+  }
+}
+
+.node-page {
+  .paragraphs-items {
+    .field-name-field-link {
+      a {
+        margin: 5px 0;
+      }
+    }
+
+
+    .field-name-field-tekst,
+    .field-name-field-tekst-2{
+      margin: 20px 0;
+      img{
+        max-height: 120px;
+      }
+      h2{
+        margin-bottom: 20px;
+      }
+
+      }
+    }
+
+    .paragraphs-item-1-kolom-afbeelding-tekst {
+      .field-name-field-tekst {
+        top: 20px;
+        left: 20px;
+        img{
+          max-height: 120px;
+        }
+      }
+      .field-name-field-link {
+        left: 15%;
+
+      }
+    }
+  }
+
+
+.ds-2col > .group-left {
+
+}
+
+.ds-2col > .group-right {
+
+}

@@ -1,0 +1,27 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+#block-superfish-1 {
+  width: 1180px; }
+  #block-superfish-1 #superfish-1 li {
+    width: 16.66666666%;
+    margin: 0; }
+
+.node-page .paragraphs-items .field-name-field-link a {
+  margin: 5px 0; }
+.node-page .paragraphs-items .field-name-field-tekst,
+.node-page .paragraphs-items .field-name-field-tekst-2 {
+  margin: 20px 0; }
+  .node-page .paragraphs-items .field-name-field-tekst img,
+  .node-page .paragraphs-items .field-name-field-tekst-2 img {
+    max-height: 120px; }
+  .node-page .paragraphs-items .field-name-field-tekst h2,
+  .node-page .paragraphs-items .field-name-field-tekst-2 h2 {
+    margin-bottom: 20px; }
+.node-page .paragraphs-item-1-kolom-afbeelding-tekst .field-name-field-tekst {
+  top: 20px;
+  left: 20px; }
+  .node-page .paragraphs-item-1-kolom-afbeelding-tekst .field-name-field-tekst img {
+    max-height: 120px; }
+.node-page .paragraphs-item-1-kolom-afbeelding-tekst .field-name-field-link {
+  left: 15%; }
+
+/*# sourceMappingURL=default-alpha-default-wide.css.map */

@@ -1,0 +1,57 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+.ds-2col > .group-left {
+  float: left;
+  width: 100%; }
+
+.ds-2col > .group-right {
+  float: left;
+  width: 100%; }
+
+.ds-2col-stacked > .group-left {
+  width: 50%; }
+
+.ds-2col-stacked > .group-right {
+  width: 50%; }
+
+.node-page .paragraphs-items .field-name-field-tekst,
+.node-page .paragraphs-items .field-name-field-tekst-2 {
+  margin: 5px 0; }
+  .node-page .paragraphs-items .field-name-field-tekst img,
+  .node-page .paragraphs-items .field-name-field-tekst-2 img {
+    max-height: 120px; }
+.node-page .paragraphs-items .paragraphs-item-1-kolom-afbeelding-tekst {
+  position: relative; }
+  .node-page .paragraphs-items .paragraphs-item-1-kolom-afbeelding-tekst .field-name-field-tekst {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    color: #fff; }
+    .node-page .paragraphs-items .paragraphs-item-1-kolom-afbeelding-tekst .field-name-field-tekst img {
+      max-height: 120px; }
+  .node-page .paragraphs-items .paragraphs-item-1-kolom-afbeelding-tekst .field-name-field-link {
+    position: absolute;
+    bottom: 20px;
+    right: 22%; }
+    .node-page .paragraphs-items .paragraphs-item-1-kolom-afbeelding-tekst .field-name-field-link a {
+      text-shadow: none;
+      padding: 10px 20px;
+      margin: 20px 0;
+      display: inline-block;
+      border: 1px solid #fff;
+      background: #000;
+      border-radius: 0;
+      box-shadow: none;
+      color: #fff;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
+    .node-page .paragraphs-items .paragraphs-item-1-kolom-afbeelding-tekst .field-name-field-link a:hover {
+      background: #fff;
+      color: #000; }
+
+/*# sourceMappingURL=default-alpha-default-narrow.css.map */
